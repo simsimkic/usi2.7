@@ -1,0 +1,31 @@
+﻿<Window x:Class="ZdravoCorp.Views.DoctorView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:ZdravoCorp.ViewModels"
+        xmlns:views="clr-namespace:ZdravoCorp.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Doctor" Height="450" Width="800" Icon="pack://application:,,,/Images/hospital.png">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    </Window.Resources>
+    <Window.DataContext>
+        <viewModel:DoctorViewModel/>
+    </Window.DataContext>
+    <Grid Margin="0">
+        <TabControl>
+            <TabItem Header="CRUD">
+                <Frame Source="DoctorCrudView.xaml"/>
+            </TabItem>
+            <TabItem Header="Search">
+                <Frame Source="DoctorSearchView.xaml"/>
+            </TabItem>
+            <TabItem Header="Schedule">
+                <Frame Source="DoctorScheduleView.xaml"/>
+            </TabItem>
+        </TabControl>
+        <Button HorizontalAlignment="Right" Margin="5 0" Content='Log Out' VerticalAlignment="Top" Command="{Binding LogOut}"/>
+    </Grid>
+</Window>

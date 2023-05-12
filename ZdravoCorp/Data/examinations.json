@@ -1,0 +1,272 @@
+[
+  {
+    "CurrentStatus": 2,
+    "TimeSlot": {
+      "DateTime": "2023-04-13T15:00:00+02:00",
+      "Duration": 22
+    },
+    "IsOperation": false,
+    "DoctorUsername": "doctor",
+    "PatientUsername": "dzoni"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-04-14T20:00:00+02:00",
+      "Duration": 20
+    },
+    "IsOperation": false,
+    "DoctorUsername": "doctor",
+    "PatientUsername": "radislav"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-04-13T00:00:00+02:00",
+      "Duration": 60
+    },
+    "IsOperation": true,
+    "DoctorUsername": "doctor",
+    "PatientUsername": "dzoni"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-09T10:45:00+02:00",
+      "Duration": 30
+    },
+    "IsOperation": true,
+    "DoctorUsername": "janedoe",
+    "PatientUsername": "dzoni"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T09:45:00+02:00",
+      "Duration": 30
+    },
+    "IsOperation": false,
+    "DoctorUsername": "doctor",
+    "PatientUsername": "vujsa"
+  },
+  {
+    "CurrentStatus": 2,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T10:15:00+02:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "doctor",
+    "PatientUsername": "vujsa"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T10:30:00+02:00",
+      "Duration": 30
+    },
+    "IsOperation": false,
+    "DoctorUsername": "doctor",
+    "PatientUsername": "vujsa"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T11:00:00+02:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "doctor",
+    "PatientUsername": "vujsa"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T11:15:00+02:00",
+      "Duration": 30
+    },
+    "IsOperation": false,
+    "DoctorUsername": "doctor",
+    "PatientUsername": "vujsa"
+  },
+  {
+    "CurrentStatus": 2,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T11:45:00+02:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "doctor",
+    "PatientUsername": "vujsa"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T12:00:00+02:00",
+      "Duration": 30
+    },
+    "IsOperation": false,
+    "DoctorUsername": "doctor",
+    "PatientUsername": "vujsa"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T09:45:00+02:00",
+      "Duration": 30
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drsmith2",
+    "PatientUsername": "somi"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T10:15:00+02:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drsmith2",
+    "PatientUsername": "somi"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T11:00:00+02:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drsmith2",
+    "PatientUsername": "somi"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T11:15:00+02:00",
+      "Duration": 30
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drsmith2",
+    "PatientUsername": "somi"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T11:45:00+02:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drsmith2",
+    "PatientUsername": "somi"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T12:00:00+02:00",
+      "Duration": 30
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drsmith2",
+    "PatientUsername": "somi"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T10:00:00+02:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "doctor",
+    "PatientUsername": "dzoni"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T11:00:00+02:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drlee",
+    "PatientUsername": "dzoni"
+  },
+  {
+    "CurrentStatus": 2,
+    "TimeSlot": {
+      "DateTime": "2023-05-10T06:00:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drjones",
+    "PatientUsername": "dzoni"
+  },
+  {
+    "CurrentStatus": 2,
+    "TimeSlot": {
+      "DateTime": "2023-04-20T00:00:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drlee",
+    "PatientUsername": "dzoni"
+  },
+  {
+    "CurrentStatus": 2,
+    "TimeSlot": {
+      "DateTime": "2020-12-01T00:00:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drsmith2",
+    "PatientUsername": "dzoni"
+  },
+  {
+    "CurrentStatus": 2,
+    "TimeSlot": {
+      "DateTime": "2022-12-01T00:00:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drsmith",
+    "PatientUsername": "dzoni"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-12T09:00:00+02:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "janedoe",
+    "PatientUsername": "dzoni"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-12T12:00:00+02:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drsmith",
+    "PatientUsername": "dzoni"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-12T08:00:00+02:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "janedoe",
+    "PatientUsername": "dzoni"
+  },
+  {
+    "CurrentStatus": 0,
+    "TimeSlot": {
+      "DateTime": "2023-05-12T10:15:00+02:00",
+      "Duration": 15
+    },
+    "IsOperation": false,
+    "DoctorUsername": "drjones",
+    "PatientUsername": "dzoni"
+  }
+]

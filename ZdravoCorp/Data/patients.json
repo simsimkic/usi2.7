@@ -1,0 +1,112 @@
+[
+  {
+    "PatientRecord": {
+      "Height": 176,
+      "Weight": 72,
+      "MedicalHistory": [ "Cancer" ],
+      "Anamnesis": [
+        {
+          "Date": "2023-04-20T00:00:00",
+          "Symptoms": "Fever and headache",
+          "Conclusion": ""
+        },
+        {
+          "Date": "2022-11-15T00:00:00",
+          "Symptoms": "Stomach pain and nausea",
+          "Conclusion": "Need a therapy"
+        }
+      ],
+      "Allergens": [ "Penicillin", "Pollen", "Shellfish" ]
+    },
+    "Username": "vujsa",
+    "Password": "miki",
+    "FirstName": "Mihajlo",
+    "LastName": "Vujisic",
+    "DateOfBirth": "2002-03-30T00:00:00",
+    "Gender": 0
+  },
+  {
+    "PatientRecord": {
+      "Height": 182,
+      "Weight": 72,
+      "MedicalHistory": [ "Diabetes" ],
+      "Anamnesis": [
+        {
+          "Date": "2022-03-05T00:00:00",
+          "Symptoms": "Cough and shortness of breath",
+          "Conclusion": "Stay at home"
+        },
+        {
+          "Date": "2021-08-23T00:00:00",
+          "Symptoms": "Joint pain and fatigue",
+          "Conclusion": "Need a therapy"
+        }
+      ],
+      "Allergens": [ "Dust", "Pollen" ]
+    },
+    "Username": "radislav",
+    "Password": "radislav",
+    "FirstName": "Vladislav",
+    "LastName": "Radovic",
+    "DateOfBirth": "2002-06-30T00:00:00",
+    "Gender": 0
+  },
+  {
+    "PatientRecord": {
+      "Height": 182,
+      "Weight": 72,
+      "MedicalHistory": [],
+      "Anamnesis": [
+        {
+          "Date": "2020-12-01T00:00:00",
+          "Symptoms": "Headache and dizziness",
+          "Conclusion": "Stay at home"
+        },
+        {
+          "Date": "2023-04-20T00:00:00",
+          "Symptoms": "Fever and headache",
+          "Conclusion": "Need to check up later"
+        },
+        {
+          "Date": "2023-05-10T06:00:00",
+          "Symptoms": "Stomach pain and nausea",
+          "Conclusion": "Need a therapy"
+        },
+        {
+          "Date": "2022-12-01T00:00:00",
+          "Symptoms": "Fever",
+          "Conclusion": "Take a medicine"
+          
+        }
+      ],
+      "Allergens": [ "Peanuts" ]
+    },
+    "Username": "dzoni",
+    "Password": "dzoni",
+    "FirstName": "Nikola",
+    "LastName": "Mitrovic",
+    "DateOfBirth": "2002-06-30T00:00:00",
+    "Gender": 0
+  },
+  {
+    "PatientRecord": {
+      "Height": 190,
+      "Weight": 90,
+      "MedicalHistory": [ "something bad", "something good" ],
+      "Anamnesis": [
+        {
+          "Date": "2019-05-18T00:00:00",
+          "Symptoms": "Fever and sore throat",
+          "Conclusion": ""
+        }
+      ],
+      "Allergens": [ "Cats", "Dust" ]
+    },
+    "Username": "somi",
+    "Password": "somi",
+    "FirstName": "Milos",
+    "LastName": "Milanovic",
+    "DateOfBirth": "2002-08-22T00:00:00",
+    "Gender": 0
+  }
+]

@@ -1,0 +1,56 @@
+﻿[
+    {
+        "Username": "doctor",
+        "Password": "password",
+        "FirstName": "Adam",
+        "LastName": "Smith",
+        "DateOfBirth": "1980-01-01T00:00:00Z",
+        "Gender": 0,
+        "Specialization" : 0
+    },
+    {
+      "Username": "janedoe",
+      "Password": "password",
+      "FirstName": "Jane",
+      "LastName": "Doe",
+      "DateOfBirth": "1985-01-01T00:00:00Z",
+      "Gender": 1,
+      "Specialization": 1
+    },
+    {
+      "Username": "drsmith",
+      "Password": "password",
+      "FirstName": "David",
+      "LastName": "Smith",
+      "DateOfBirth": "1975-01-01T00:00:00Z",
+      "Gender": 0,
+      "Specialization": 2
+    },
+    {
+      "Username": "drjones",
+      "Password": "password",
+      "FirstName": "Jennifer",
+      "LastName": "Jones",
+      "DateOfBirth": "1987-01-01T00:00:00Z",
+      "Gender": 1,
+      "Specialization": 2
+    },
+    {
+      "Username": "drlee",
+      "Password": "password",
+      "FirstName": "James",
+      "LastName": "Lee",
+      "DateOfBirth": "1982-01-01T00:00:00Z",
+      "Gender": 0,
+      "Specialization": 1
+    },
+    {
+      "Username": "drsmith2",
+      "Password": "password",
+      "FirstName": "Sarah",
+      "LastName": "Smith",
+      "DateOfBirth": "1980-01-01T00:00:00Z",
+      "Gender": 1,
+      "Specialization": 0
+    }
+]

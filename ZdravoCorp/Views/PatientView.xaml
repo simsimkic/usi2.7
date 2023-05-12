@@ -1,0 +1,50 @@
+<Window x:Class="ZdravoCorp.Views.PatientView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:models="clr-namespace:ZdravoCorp.Models"
+        xmlns:zdravoCorp="clr-namespace:ZdravoCorp"
+        xmlns:viewmodels="clr-namespace:ZdravoCorp.ViewModels"
+		xmlns:converters="clr-namespace:ZdravoCorp.Converters"
+		xmlns:local="clr-namespace:ZdravoCorp.Views"
+        d:DataContext="{d:DesignInstance Type=viewmodels:PatientViewModel}"
+        mc:Ignorable="d"
+        Title="Patient" Height="450" Width="800" Icon="pack://application:,,,/Images/hospital.png">
+    <Window.Resources>
+        <viewmodels:ViewModelBase x:Key="UsernameConverter"/>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
+    </Window.Resources>
+    <Grid Margin='0'>
+        <TabControl>
+            <TabItem Header="CRUD">
+
+                <Grid>
+                    <local:PatientCRUDView />
+                </Grid>
+            </TabItem>
+
+
+
+
+            <!-- Search tab -->
+            <TabItem Header="Recommended">
+                <Grid>
+                    <local:RecommendedExaminationView />
+
+                </Grid>
+            </TabItem>
+            <!-- History tab -->
+            <TabItem Header="History">
+                <Grid>
+                    <local:AnamnesisReviewView />
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+        <Button HorizontalAlignment="Right" Content='Log Out' VerticalAlignment="Top" Command="{Binding LogOut}"/>
+
+    </Grid>
+</Window>
+         

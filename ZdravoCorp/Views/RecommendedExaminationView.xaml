@@ -1,0 +1,79 @@
+<UserControl x:Class="ZdravoCorp.Views.RecommendedExaminationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:viewModel="clr-namespace:ZdravoCorp.ViewModels"
+			 xmlns:converters="clr-namespace:ZdravoCorp.Converters"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        <converters:DoctorNameConverter x:Key="DoctorNameConverter"/>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <viewModel:RecommendedExaminationViewModel/>
+    </UserControl.DataContext>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Desired Doctor:" Grid.Row="0" Grid.Column="0" Margin="5,5,10,5" VerticalAlignment="Center"/>
+        <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding DoctorsView}"
+          SelectedItem="{Binding SelectedDoctor}"
+          Margin="0,5" VerticalAlignment="Center" HorizontalAlignment="Left" Width="200"/>
+        <!-- Time Range -->
+        <Label Content="Time Range:" Grid.Row="1" Grid.Column="0" Margin="5"/>
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Margin="5">
+            <ComboBox ItemsSource="{Binding TimeRange}" SelectedItem="{Binding SelectedStartingHour, Mode=TwoWay}" Width="100" Margin="0,0,5,0" />
+            <TextBlock Text="-" Margin="5,0"/>
+            <ComboBox ItemsSource="{Binding TimeRange}" SelectedItem="{Binding SelectedEndingHour, Mode=TwoWay}" Width="100" />
+        </StackPanel>
+
+        <!-- Latest Date -->
+        <Label Content="Latest Date:" Grid.Row="2" Grid.Column="0" Margin="5"/>
+        <DatePicker Grid.Row="2" Grid.Column="1" Margin="5" SelectedDate="{Binding SelectedDate}" />
+
+        <!-- Priority -->
+        <Label Content="Select Priority:" Grid.Row="3" Grid.Column="0" Margin="5"/>
+        <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" Margin="5">
+            <RadioButton Content="Doctor" GroupName="Priority" IsChecked="{Binding IsDoctorChecked}" Margin="5,0"/>
+            <RadioButton Content="Time Range" GroupName="Priority" IsChecked="{Binding IsTimeRangeChecked}" Margin="10,0"/>
+        </StackPanel>
+
+        <!-- Find Recommended Exams Button -->
+        <Button Grid.Row="4" Grid.ColumnSpan="2" Content="Find Recommended Exams" Command="{Binding Find}" Margin="0,10,0,10" />
+
+        <!-- Available Examinations -->
+        <Label Content="Recommended Examinations:" Grid.Row="5" Grid.Column="0" Margin="5"/>
+        <ListBox Grid.Row="5" Grid.Column="1" Margin="5" ItemsSource="{Binding ClosestExaminations}" SelectedItem="{Binding SelectedExamination}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding DoctorUsername, Converter={StaticResource DoctorNameConverter}}" Margin="5" />
+                        <TextBlock Text="{Binding TimeSlot.DateTime, StringFormat='yyyy-MM-dd HH:mm'}" Margin="5" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
+
+        <!-- Create Button -->
+        <Button Grid.Row="6" Grid.Column="1" Content="Create" HorizontalAlignment="Right" Margin="5" Command="{Binding Create}" />
+    </Grid>
+</UserControl>

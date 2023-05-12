@@ -1,0 +1,112 @@
+[
+  {
+    "Equipment": {
+      "Name": "Inekcije",
+      "Type": 4
+    },
+    "Room": {
+      "Id": 11,
+      "Type": 4
+    },
+    "Quantity": 17
+  },
+  {
+    "Equipment": {
+      "Name": "Olovke",
+      "Type": 4
+    },
+    "Room": {
+      "Id": 11,
+      "Type": 4
+    },
+    "Quantity": 5
+  },
+  {
+    "Equipment": {
+      "Name": "Kop\u010De",
+      "Type": 4
+    },
+    "Room": {
+      "Id": 11,
+      "Type": 4
+    },
+    "Quantity": 10
+  },
+  {
+    "Equipment": {
+      "Name": "Papir",
+      "Type": 4
+    },
+    "Room": {
+      "Id": 11,
+      "Type": 4
+    },
+    "Quantity": 10
+  },
+  {
+    "Equipment": {
+      "Name": "Hanzaplast",
+      "Type": 4
+    },
+    "Room": {
+      "Id": 11,
+      "Type": 4
+    },
+    "Quantity": 20
+  },
+  {
+    "Equipment": {
+      "Name": "Gaze",
+      "Type": 4
+    },
+    "Room": {
+      "Id": 11,
+      "Type": 4
+    },
+    "Quantity": 20
+  },
+  {
+    "Equipment": {
+      "Name": "Sto",
+      "Type": 2
+    },
+    "Room": {
+      "Id": 2,
+      "Type": 0
+    },
+    "Quantity": 1
+  },
+  {
+    "Equipment": {
+      "Name": "Sto",
+      "Type": 2
+    },
+    "Room": {
+      "Id": 3,
+      "Type": 0
+    },
+    "Quantity": 1
+  },
+  {
+    "Equipment": {
+      "Name": "Papir",
+      "Type": 4
+    },
+    "Room": {
+      "Id": 1,
+      "Type": 0
+    },
+    "Quantity": 5
+  },
+  {
+    "Equipment": {
+      "Name": "Inekcije",
+      "Type": 4
+    },
+    "Room": {
+      "Id": 5,
+      "Type": 2
+    },
+    "Quantity": 6
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ZdravoCorp": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

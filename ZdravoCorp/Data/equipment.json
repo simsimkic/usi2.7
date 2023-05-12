@@ -1,0 +1,46 @@
+[
+  {
+    "Name": "Stolica",
+    "Type": 2
+  },
+  {
+    "Name": "Sto",
+    "Type": 2
+  },
+  {
+    "Name": "Stetoskop",
+    "Type": 1
+  },
+  {
+    "Name": "Stalak za infuziju",
+    "Type": 0
+  },
+  {
+    "Name": "Orman",
+    "Type": 2
+  },
+  {
+    "Name": "Gaze",
+    "Type": 4
+  },
+  {
+    "Name": "Kopče",
+    "Type": 4
+  },
+  {
+    "Name": "Hanzaplast",
+    "Type": 4
+  },
+  {
+    "Name": "Inekcije",
+    "Type": 4
+  },
+  {
+    "Name": "Papir",
+    "Type": 4
+  },
+  {
+    "Name": "Olovke",
+    "Type": 4
+  }
+]
